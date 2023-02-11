@@ -4,22 +4,44 @@
     padding: 0;
 }
 
+i{
+    font-size: xx-large;
+}
+
+main{
+    min-height: 100%;
+}
+
+.bi-instagram{
+    color: rgb(235, 47, 216);
+}
+
+.bi-facebook{
+    color: blue;
+}
+
+.bi-whatsapp{
+    color: green;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
 
 
 
 
-
-@media only screen and (max-width: 375px) {
+/*
+}
+@media only screen and (min-width: 375px) {
     *{
     background-color: aqua;
     }
-
-    .logo{
-        display: none;
-    }
+    i{
+    font-size: large;
 }
-
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
     *{
     background-color: blueviolet;
         
@@ -28,8 +50,10 @@
 
 
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (min-width: 1440px) {
     *{
-        background-color: yellow;
+        background-color: lightslategray;
     }
 }
+*/
+
