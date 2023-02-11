@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 375px) {
+    *{
+    background-color: aqua;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    *{
+    background-color: blueviolet;
+        
+    }
+}
+
+
+
+@media only screen and (min-width: 1440px) {
+    *{
+        background-color: yellow;
+    }
+}
