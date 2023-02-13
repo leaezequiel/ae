@@ -4,6 +4,17 @@
     padding: 0;
 }
 
+html{
+    height: 100%;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
 i{
     font-size: xx-large;
 }
@@ -12,9 +23,12 @@ img{
     border-radius: 15px;
 }
 
-.card{
-    border-radius: 15px;
+.presentation{
+    color:blueviolet;
+    display:flex;
+    justify-content: center;
 }
+
 
 main{
     min-height: 100%;
@@ -36,12 +50,13 @@ main{
 footer{
     background-color: black;
     color: white;
+    margin-top: auto;
 }
 
 
 
 
-/*
+/* The meddia querys just in case
 }
 @media only screen and (min-width: 375px) {
     *{
