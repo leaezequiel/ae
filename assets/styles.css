@@ -8,6 +8,14 @@ i{
     font-size: xx-large;
 }
 
+img{
+    border-radius: 15px;
+}
+
+.card{
+    border-radius: 15px;
+}
+
 main{
     min-height: 100%;
     background-color: lightgray;
