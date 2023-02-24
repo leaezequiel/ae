@@ -1,3 +1,4 @@
+
 let data = {
     "currentDate": "2022-01-01",
     "events": [
@@ -171,3 +172,32 @@ let data = {
       }
     ]
   }
+
+
+  let eventslList = []
+  //En cada uno de las cards tiene que ser d pero ....
+  for (let d of data.events){
+    let card=`
+    <div class="col">
+    <div class="card h-100">
+      <img src="./assets/js/data_ae_1.js/${data.events._id[d+1].image}" class="card-img-top img-fit" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">${data.events.name}</h5>
+        <p class="card-text">${data.events.description}</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Category:${data.events.}</li>
+        <li class="list-group-item">Price: 50 usd</li>
+
+
+        
+        <li class="list-group-item text-end"><a class="btn btn-outline-primary" href="./card.html">See more</a></li>
+      </ul>
+    </div>
+  </div>
+  `
+    console.log(card)
+    eventsList.push(card)
+  }
+  
+  
