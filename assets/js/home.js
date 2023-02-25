@@ -12,12 +12,13 @@ function createTemplate() {
         <div class="card h-100">
           <img src="${one.image}" class="card-img-top img-fit" alt="...">
           <div class="card-body">
-            <h5 class="card-title">${one.name}</h5>
+            <h4 class="card-title">${one.name}</h4>
             <p class="card-text">${one.description}</p>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">Category:${one.category}</li>
-            <li class="list-group-item">Price:  usd</li>
+            <li class="list-group-item">Category: ${one.category}</li>
+            <li class="list-group-item">Price: ${one.price}</li>
+            <li class="list-group-item">Date: ${one.date}</li>
       
       
             
