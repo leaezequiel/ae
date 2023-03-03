@@ -21,7 +21,7 @@ function createTemplate() {
       
       
 
-              <li class="list-group-item text-end"><a class="btn btn-outline-primary" href="./card.html">See more</a></li>
+            <li class="list-group-item text-end"><a class="btn btn-outline-primary" href="./detail.html?id=${one.id}">See more</a></li>
             </ul>
             </div>
         `;
