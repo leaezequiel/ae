@@ -12,9 +12,6 @@ function defineCard(one){
         <li class="list-group-item">Category: ${one.category}</li>
         <li class="list-group-item">Price: ${one.price}$</li>
         <li class="list-group-item">Date: ${one.date}</li>
-
-
-
         <li class="list-group-item text-end"><a class="btn btn-outline-primary" href="./detail.html?id=${one.id}">See more</a></li>
       </ul>
       </div>
@@ -33,5 +30,4 @@ datos.array.forEach(element => {
     
 });
 
-//find
-datos.filter(each =>)
+//find datos.filter(each =>)
