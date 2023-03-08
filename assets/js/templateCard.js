@@ -21,7 +21,6 @@ function defineCard(one){
 function printTemplates(idEvent) {
   let container = document.querySelector("#event_container")
   let one = events.find(each => each._id == idEvent)
-  console.log(one)
   let details = defineCard(one)
   container.innerHTML = details 
 }
