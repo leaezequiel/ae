@@ -40,15 +40,15 @@ let newCards = events.map((each)=> createTemplate(each))
 
 //-------------------------------------------------------
 
-//categias:
+/* //categias:
 let elementsTypes= []
 datos.array.forEach(element => {
     if(!elementsTypes.includes(each.category)){
         elementsTypes.push(each.category)
     }
     
-});
+}); */
 
 let selector = document.getElementById("cardContainer");
-selector.innerHTML = templates.join(" ");
+//selector.innerHTML = templates.join(" ");
 
