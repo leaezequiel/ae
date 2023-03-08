@@ -1,5 +1,5 @@
-let events = datos.events;
-
+//let events = datos.events;
+/* 
 function captureData() {
     let texto = document.getElementById('id_search').value
     let checks = Array.from(document.querySelectorAll('.class_checks:checked')).map(each => each.value)
@@ -8,8 +8,8 @@ function captureData() {
     })
     console.log(filtro)
     if (filtro.length>0) {
-        printTemplates('#cardContainer',filtro)
+        createTemplate(filtro)
     } else {
         notFound('#cardContainer')
     }
-}
+} */

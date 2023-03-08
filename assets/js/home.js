@@ -9,7 +9,6 @@ function createTemplate() {
   for (let one of events) {
     let newCard = defineCard(one)
     templates.push(newCard)
-    console.log(one)
   }
   let selector = document.getElementById("cardContainer");
   selector.innerHTML = templates.join(" ");
