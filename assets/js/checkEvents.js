@@ -51,3 +51,26 @@ function printChecks(id_etiqueta,eventsCategories) {
     container.innerHTML = eventsCategories.join('')
 }
 printChecks('#table_checks',categories)
+
+
+function captureData() {
+    let texto = document.getElementById('id_search').value
+    let checks = Array.from(document.querySelectorAll('.class_checks:checked')).map(each => each.value)
+    let filtro = datos.events.filter(each => {
+        return (each.name.includes(texto)) && (checks.length === 0 || checks.includes(each.category))
+    })
+    console.log(filtro)
+    if (filtro.length>0) {
+        printTemplates('#cardContainer',filtro)
+    } else {
+        notFound('#cardContainer')
+    }
+}
+
+function printTemplates(idEvent) {
+    let container = document.querySelector("#event_container")
+    let one = events.find(each => each._id == idEvent)
+    let details = defineCard(one)
+    container.innerHTML = details 
+  }
+  
