@@ -3,6 +3,8 @@ let events = datos.events;
 
 let currentDate = datos.currentDate
 
+let times= "past"
+
 function createTemplate() {
     //variable que se almacenan los datos del array para renderizar cards
     let templates = []; 

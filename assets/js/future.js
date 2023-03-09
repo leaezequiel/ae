@@ -3,6 +3,9 @@ let events = datos.events;
 
 let currentDate = datos.currentDate
 
+let times= "future"
+
+
 function createTemplate() {
     //variable que se almacenan los datos del array para renderizar cards
     let templates = []; 
@@ -16,6 +19,7 @@ function createTemplate() {
     }
     let selector = document.getElementById("cardContainer");
     selector.innerHTML = templates.join(" ");
+    console.log(templates)
 }
   
   
